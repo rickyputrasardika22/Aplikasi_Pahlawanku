@@ -56,7 +56,7 @@ public class AdapterGrid extends RecyclerView.Adapter<AdapterGrid.ClassViewHolde
                 kirim.putExtra("xNama", xNama);
                 kirim.putExtra("xTentang", xTentang);
                 kirim.putExtra("xFoto", xFoto);
-                ctx.startActivity(kirim); 
+                ctx.startActivity(kirim);
             }
         });
 
